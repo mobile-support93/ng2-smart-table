@@ -6,6 +6,7 @@ export class Column {
   type: string = '';
   class: string = '';
   width: string = '';
+  show: boolean = true;
   isSortable: boolean = false;
   isEditable: boolean = true;
   isAddable: boolean = true;
